@@ -1,6 +1,6 @@
 ![Qiita CLI](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/88/92b6e4ce-4803-b06e-2d56-e7a9507c612f.png)
 
-# scene
+# Cortex
 
 Qiita CLI とは、手元の環境で記事の執筆・プレビュー・投稿ができるツールです。
 Qiita CLI を使うことで、普段お使いのエディタなどを使って記事の執筆・投稿がしやすくなります。
