@@ -1,6 +1,6 @@
 ![Qiita CLI](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/88/92b6e4ce-4803-b06e-2d56-e7a9507c612f.png)
 
-# Qiita CLI、Qiita Preview へようこそ！
+# yondako
 
 Qiita CLI とは、手元の環境で記事の執筆・プレビュー・投稿ができるツールです。
 Qiita CLI を使うことで、普段お使いのエディタなどを使って記事の執筆・投稿がしやすくなります。
@@ -45,13 +45,13 @@ Node.js をはじめて使う場合はインストールする必要がありま
 ### 2. Qiita CLI をインストールする
 
 > [!WARNING]
-> Qiita公式で提供している Qiita CLI の npm package 名は **@qiita/qiita-cli** となります。
+> Qiita公式で提供している Qiita CLI の npm package 名は **@qiita/yondako** となります。
 > その他は異なるパッケージがインストールされてしまいます。必ずご確認の上、インストールしてください。
 
 Qiita のコンテンツを管理したいディレクトリで、以下のコマンドを実行します。
 
 ```console
-npm install @qiita/qiita-cli --save-dev
+npm install @qiita/yondako --save-dev
 ```
 
 以下のコマンドでバージョンが表示されればインストール完了です。
@@ -65,7 +65,7 @@ npx qiita version
 Qiita CLI をアップデートする場合は以下のコマンドを実行します。
 
 ```console
-npm install @qiita/qiita-cli@latest
+npm install @qiita/yondako@latest
 ```
 
 ## Qiita CLI のセットアップ方法について
@@ -90,7 +90,7 @@ npx qiita init
 
 以下の流れでトークンを発行してください。
 
-- [https://qiita.com/settings/tokens/new](https://qiita.com/settings/tokens/new?read_qiita=1&write_qiita=1&description=qiita-cli) へログインした状態でアクセスします。
+- [https://qiita.com/settings/tokens/new](https://qiita.com/settings/tokens/new?read_qiita=1&write_qiita=1&description=yondako) へログインした状態でアクセスします。
   - トークンの権限には「read_qiita」と「write_qiita」を設定します。
 
 発行したトークンは`Qiita CLIのログイン`、`GitHubで記事を管理する`で利用します。
@@ -262,7 +262,7 @@ npx qiita version
 ### --credential \<credential_dir>
 
 Qiita CLI の認証情報（`credentials.json`）を配置する・しているディレクトリを指定できます。
-デフォルトでは`$XDG_CONFIG_HOME/qiita-cli`もしくは`$HOME/.config/qiita-cli`になっています。
+デフォルトでは`$XDG_CONFIG_HOME/yondako`もしくは`$HOME/.config/yondako`になっています。
 
 ```console
 npx qiita login --credential ./my_conf/
